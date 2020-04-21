@@ -33,12 +33,11 @@ public class main {
 		
 //		if (x!=(r!=z)) z = 1000;
 //		if(x=y) z = 222;
-		if (x!=0) z = 333;
+		if (x!=0) z = 323;
 //		if (x) z = 444;
 		
-		x = y = z = 77;
-		if((x==y)&&(x==77)) z = 33;
-		if((x>y)||(z>22)) z= 22;
+		x = y = z = 73;
+
 //		if(x && y  &&z) z = 11;
 //		if((x=1) && (y=2) && (z=3)) r = 12.00;
 //		if((x==2)&&(y=3)&&(z=4)) r = 14.56;
@@ -62,21 +61,8 @@ public class main {
 		
 		System.out.println("x = " + x);
 		System.out.println("y = " + y);
-		otro();
 	}
 	
-	public static void otro()
-	{
-		int a = 7;
-		int b = 8;
-		int c = 98;
-		
-		if(a==7||b<=(++a)) b = 9;
-		
-		if(a==8||b<=(++a)) b = 10;
-		System.out.println("a: "+a);
-		System.out.println("b: "+b);
-		System.out.println("c: "+c);
-	}
+
 
 }
